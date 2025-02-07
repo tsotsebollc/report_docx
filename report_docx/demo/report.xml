@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!--
+    © 2024 Custom Development
+    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
+    -->
+    <record id="partner_docx" model="ir.actions.report">
+        <field name="name">Print to DOCX</field>
+        <field name="model">res.partner</field>
+        <field name="report_type">docx</field>
+        <field name="report_name">report_docx.partner_docx</field>
+        <field name="report_file">res_partner</field>
+    </record>
+</odoo>

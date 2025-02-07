@@ -1,0 +1,31 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Odoo specific temporary files
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignore IDE & Editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependencies
+venv/
+.env/
+*.egg-info/
+
+# Ignore compiled assets
+/static/src/js/*.min.js
+/static/src/css/*.min.css
+
+# Ignore database dumps
+*.sql
+*.sqlite3
+*.db
