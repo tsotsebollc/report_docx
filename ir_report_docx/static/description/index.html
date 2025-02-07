@@ -68,6 +68,15 @@
             background: #007BFF;
             color: white;
         }
+
+        .code-block {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 5px solid #007BFF;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 14px;
+            white-space: pre-wrap;
+        }
     </style>
 </head>
 
@@ -103,9 +112,25 @@
             <li>📖 User guide & documentation</li>
         </ul>
 
+        <h2>⚙️ Installation Guide</h2>
+        <p>To use this module, you need to install the `python-docx` library. Run the following command:</p>
+        <div class="code-block">pip install python-docx</div>
+
+        <p>Once installed, restart your Odoo server:</p>
+        <div class="code-block">./odoo-bin -c odoo.conf -d your_database</div>
+
+        <h2>📖 How to Use</h2>
+        <ul class="features">
+            <li>1️⃣ Navigate to the <b>Contacts</b> module in Odoo.</li>
+            <li>2️⃣ Select a customer and open their record.</li>
+            <li>3️⃣ Click on the <b>Print</b> button.</li>
+            <li>4️⃣ Choose <b>Export to DOCX</b> from the available report options.</li>
+            <li>5️⃣ A Word document (.docx) will be generated with the customer details.</li>
+        </ul>
+
         <h2>📩 Contact Us</h2>
         <p>
-            📧 Email: <a href="mailto:sales@cocobos.mn">tsotsebollc@gmail.com</a> <br>
+            📧 Email: <a href="mailto:tsotsebollc@gmail.com">tsotsebollc@gmail.com</a> <br>
             🌍 Website: <a href="https://safety-tech.mn" target="_blank">safety-tech.mn</a> <br>
             📞 Phone: +976-88066536
         </p>
