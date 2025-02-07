@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Report DOCX - Odoo Word Report Generator',
-    'version': '15.0.1.0.1',
-    'summary': 'Generate dynamic DOCX reports in Odoo 15',
-    'description': """
+    "name": "Report DOCX - Odoo Word Report Generator",
+    "version": "15.0.1.0.1",
+    "summary": "Generate dynamic DOCX reports in Odoo 15",
+    "description": """
         📝 **Report DOCX - Professional Word Report Generator for Odoo 15**
         
         This module enables the generation of Microsoft Word (DOCX) reports within Odoo 15. 
@@ -25,14 +25,14 @@
 
         💡 **Ideal for:** Accounting, Sales, HR, Invoicing, Logistics, and more!
     """,
-    'category': 'Reporting',
-    'author': 'Purevdorj.M',
-    'maintainer': 'TsoTseBoSS LLC',
-    'website': 'https://safety-tech.mn/',
-    'license': 'OPL-1',  # If selling on Odoo App Store, use 'OPL-1'
-    'price': 5.00,  # Set your selling price here
-    'currency': 'USD',
-    'images': ['static/description/banner.png'],  # Add a banner for marketing
+    "category": "Reporting",
+    "author": "Purevdorj.M",
+    "maintainer": "TsoTseBoSS LLC",
+    "website": "https://safety-tech.mn/",
+    "license": "OPL-1",  # If selling on Odoo App Store, use 'OPL-1'
+    "price": 5.00,  # Set your selling price here
+    "currency": "USD",
+    "images": ["static/description/banner.png"],  # Add a banner for marketing
     "external_dependencies": {"python": ["python-docx"]},
     "depends": ["base", "web"],
     "data": [],
@@ -41,7 +41,7 @@
     "application": True,
     "assets": {
         "web.assets_backend": [
-            "report_docx/static/src/js/report/action_manager_report.esm.js",
+            "ir_report_docx/static/src/js/report/action_manager_report.esm.js",
         ],
     },
 }
